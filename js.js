@@ -51,7 +51,7 @@ let questions = [
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
-const questionTime = 5; // 5s
+const questionTime = 10; // 10s
 const gaugeWidth = 100; // 100px
 const gaugeUnit = gaugeWidth / questionTime;
 let TIMER;
